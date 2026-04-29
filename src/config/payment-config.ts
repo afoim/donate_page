@@ -27,11 +27,11 @@ export interface SiteConfig {
 // 您可以在这里自定义网站的基本信息
 export const siteConfig: SiteConfig = {
   title: "赞助给 AcoFork",
-  description: "赞助给 AcoFork - 支持多种支付方式的统一收款界面",
+  description: "赞助给 AcoFork - 支持多种支付方式的统一赞助界面",
   favicon: "https://q2.qlogo.cn/headimg_dl?dst_uin=2726730791&spec=5", // 可以替换为您的图标路径
   pageTitle: "赞助给 AcoFork",
   pageDescription: "请选择您的赞助方式",
-  thankYouText: "感谢您的赞助！如果您赞助后留下了个人信息，我们将会将您公布在赞助列表中。",
+  thankYouText: "感谢您的赞助！",
   enableThemeToggle: true, // 启用主题切换按钮
   defaultTheme: "system" // 默认跟随系统主题
 }
