@@ -56,14 +56,6 @@ export const paymentConfig: PaymentMethodConfig[] = [
     enabled: true
   },
   {
-    id: "usdt",
-    name: "加密货币",
-    description: "如需赞助，请发送USDT到下述钱包地址。仅支持如下链：AVAXCHAIN、ERC20、BEP20。请勿向当前地址进行任何非 USDT 的发送或者使用不支持的链发送。",
-    type: "address",
-    address: "0xe2bacffb78145af2e8d8fe3e28073badb7e9e56c", // 替换为您的USDT钱包地址
-    enabled: true
-  },
-  {
     id: "bankcard",
     name: "境内汇款",
     description: "请使用境内银行卡转账赞助",
