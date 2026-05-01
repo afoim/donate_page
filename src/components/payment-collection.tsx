@@ -34,8 +34,8 @@ export function PaymentCollection() {
           <CardDescription className="text-center">{siteConfig.pageDescription}</CardDescription>
         </CardHeader>
         <CardContent>
-          <Tabs defaultValue="alipay" className="w-full">
-            <TabsList className="grid grid-cols-4 w-full text-xs">
+          <Tabs defaultValue={paymentMethods[0]?.id} className="w-full">
+            <TabsList className="grid w-full text-xs" style={{ gridTemplateColumns: `repeat(${paymentMethods.length}, minmax(0, 1fr))` }}>
               {paymentMethods.map((method) => (
                 <TabsTrigger key={method.id} value={method.id}>
                   {method.name}
